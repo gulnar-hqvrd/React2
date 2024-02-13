@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(235, 233, 233);
+}
+
+.container > h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+body {
+  background: rgb(0, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 36, 1) 0%,
+    rgba(0, 152, 122, 1) 0%,
+    rgba(0, 193, 197, 1) 42%,
+    rgba(0, 224, 255, 1) 60%
+  );
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+::placeholder {
+  color: #c888;
+  /* padding-left: 10px; */
+}
+
+.container > img {
+  width: 50%;
+}
