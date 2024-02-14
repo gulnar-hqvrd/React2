@@ -26,10 +26,10 @@ type UserProviderProps = {
 export default function UserProvider({ children }: UserProviderProps) {
 
   const [user, setUser] = useState<User>({
-    name: "",
-    email: "",
-    theme: "",
-    themeColor: "",
+    name: "default name",
+    email: "default email",
+    theme: "default theme",
+    themeColor: "default theme color",
   });
 
   return (

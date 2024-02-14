@@ -8,6 +8,9 @@ import PrimitiriveNumbers from "./components/primitiriveNumbers";
 import InitialState from "./components/initialState";
 import StateClosure from "./components/stateClosure";
 import FetchingUseEffect from "./components/fetchingUseEffect";
+import UserDetails from "./components/userDetails";
+import UserDetail, { UserCard, UserForm } from "./components/userDetails";
+import UserProvider from "../content/UserContent";
 
 function App() {
   return (
@@ -42,6 +45,14 @@ function App() {
 
       <div>
         <FetchingUseEffect/>
+      </div>
+
+      <div>
+      <UserProvider>
+        <UserDetail />
+        <UserCard />
+        <UserForm />
+      </UserProvider>
       </div>
     </>
   );
