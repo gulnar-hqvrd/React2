@@ -16,7 +16,7 @@ export default function InitialState() {
             setTimeout(()=>{
                 setProduct(data) 
                 setLoading(false)
-            } , 2000)
+            } ,2000)
            
         })
         )

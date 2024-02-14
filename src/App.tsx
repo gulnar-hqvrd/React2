@@ -6,6 +6,8 @@ import RegisterForm from "./components/registerForm";
 import CalculatePrice from "./components/calculatePrice";
 import PrimitiriveNumbers from "./components/primitiriveNumbers";
 import InitialState from "./components/initialState";
+import StateClosure from "./components/stateClosure";
+import FetchingUseEffect from "./components/fetchingUseEffect";
 
 function App() {
   return (
@@ -30,8 +32,16 @@ function App() {
         <PrimitiriveNumbers/>
       </div> */}
 
-      <div>
+      {/* <div>
         <InitialState/>
+      </div> */}
+
+      {/* <div>
+        <StateClosure />
+      </div> */}
+
+      <div>
+        <FetchingUseEffect/>
       </div>
     </>
   );
