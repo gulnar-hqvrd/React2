@@ -14,7 +14,7 @@ const defaultState = {
     theme: "",
     themeColor: "",
   } as User,
-  setUser: (user: User) => {},
+  setUser: (u6yhser: User) => {},
 };
 
 export const UserContext = createContext(defaultState);

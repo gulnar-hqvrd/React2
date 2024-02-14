@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from "react";
-
-import { UserContext } from "../../content/UserContent";
+import { UserContext } from "../../context/UserContext";
 
 export default function UserDetail() {
   const { user, setUser } = useContext(UserContext);
